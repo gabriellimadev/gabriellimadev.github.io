@@ -1,5 +1,4 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -49,10 +48,4 @@ a::before {
 .button:hover {
     transform: scale(1.05);
     font-size: 21px;
-}
-
-h1 {
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 40px;
-    text-shadow: 3px 3px white;
 }
