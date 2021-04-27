@@ -1,4 +1,4 @@
-.action {
+.main-action {
     color: #fff;
     font-family: "Fira Code", sans-serif;
     font-weight: 400;
@@ -8,7 +8,7 @@
     
 }
 
-.action::before {
+.main-action::before {
     content: "";
     display: inline-block;
     background-color: #58004F;
