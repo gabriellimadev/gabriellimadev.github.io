@@ -13,6 +13,14 @@
     background-color: #000;
 }
 
-.main-section.-bdMidnightBlue{
-    border-color: #191970;
+.main-section.-bdGray{
+    border-color: #3A4042;
+}
+
+.main-section.-bgMidnightBlue {
+    background-color: #191970;
+}
+
+.main-section.-bdBlack {
+    border-color: #000;
 }
