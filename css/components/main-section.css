@@ -16,6 +16,18 @@
 .main-section.-bdGray{
     border-color: #3A4042;
 }
+ 
+.main-section.-noBorder{
+    border: none;
+}
+
+.main-section.-formPadding{
+    padding-bottom: 50px;
+}
+
+.main-section.-bgGray{
+    background-color: #3A4042;
+}
 
 .main-section.-bgMidnightBlue {
     background-color: #191970;
