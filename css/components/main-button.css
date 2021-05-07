@@ -10,7 +10,17 @@
     text-decoration: none;
 }
 
+.main-button.-form{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px 11px;
+}
+
 .main-button:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     font-size: 21px;
+}
+
+.main-button.-form:hover {
+    font-size: 30px;
 }
