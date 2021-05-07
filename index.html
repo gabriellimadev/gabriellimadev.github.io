@@ -23,6 +23,11 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/wrapper-form.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-info.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/wrapper-footer.css">
 </head>
 
 <body>
@@ -226,6 +231,53 @@
         </p>
 
     </section>
+
+    <section class="main-section -bgGray -noBorder -formPadding">
+
+        <h2 class="main-title -second">Contato</h2>
+
+        <form action="" method="get">
+
+            <div class="wrapper-form">
+
+                <div class="main-form">
+                    <label class="main-info" for="name">Nome</label>
+                    <input class="main-form -input" id="name" type="text" name="name" required>
+                </div>
+    
+                <div class="main-form">
+                    <label class="main-info" for="email">E-mail</label>
+                    <input class="main-form -input" type="email" id="email" required/>
+                </div>
+    
+                <div class="main-form">
+                    <label class="main-info" for="msg">Mensagem</label>
+                    <textarea class="main-form -input -msgBox" id="msg"></textarea>
+                </div>
+    
+                <div class="main-form">
+                    <button class="main-button -form" type="submit">Enviar</button>
+                </div>
+
+            </div>
+                     
+        </form>
+
+    </section>
+
+    <footer class="main-footer">
+
+        <div class="wrapper-footer">
+
+            <a href=""><img src="img/twitter.png" alt="Logo do Twitter em pixelart"></a>
+        
+            <a href=""><img src="img/youtube.png" alt="Logo do Youtube em pixelart"></a>
+            
+            <a href=""><img src="img/discord.png" alt="Logo do Discord em pixelart"></a>
+
+        </div>
+
+    </footer>
     
     <script src="js/components/main-carousel.js"></script>
 </body>
